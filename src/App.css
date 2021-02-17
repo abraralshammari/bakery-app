@@ -11,6 +11,8 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   padding: 150px;
+  letter-spacing: 5px;
+  line-height: 50px;
 }
 
 .App-navbar {
@@ -44,9 +46,10 @@
 }
 
 .List {
-  /* letter-spacing: 5px;
-  line-height: 50px; */
+  letter-spacing: 5px;
+  line-height: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
+  display: block;
 }
