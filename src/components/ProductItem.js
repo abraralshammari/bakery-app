@@ -7,10 +7,10 @@ const ProductItemWrapper= styled.div `
   color: ${(props)=> props.theme.mainColor};
   letter-spacing: 5px;
   line-height: 50px;
-  /* align-items: center; */
+  align-items: center;
+  display: flex;
   justify-content: center;
   display: inline-block;
-
 `;
 
 const ProductItemImage= styled.img `
