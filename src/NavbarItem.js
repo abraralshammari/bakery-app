@@ -14,8 +14,8 @@ const NavbarItemButton= styled.button`
 `;
 
 const NavbarItem=(props) => {
-  const sayMyName = (name) => {
-    alert(name);
+  const sayMyName = () => {
+    alert(props.text);
    };
       return(
 
